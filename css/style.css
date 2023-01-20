@@ -4,6 +4,8 @@
     --primario:#ffc107;
     --secundario:#0097a7;
     --gris:#757575;
+    --fuente_p:'Mali', cursive;
+    --fuente_s:'Srisakdi', cursive;
 }
 
 html   {
@@ -11,9 +13,51 @@ html   {
 }
 body{
     font-size: 16px;   /*1rem = 10px*/
-    font-family: 'Neucha', cursive;
+    font-family: var(--fuente_p);
+    margin: 1rem;
 }
 
-.TituloPr{
+h1.titulo{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+h2.titulo{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+p{
+    margin: 2rem;
+    text-align: justify;
+}
+.titulo{
     text-align: center;
+}  
+.styleparrafo{
+    font-family: var(--fuente_s);
+    font-weight: bold;
+}
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+.nav-bg{
+    background-color: var(--secundario);
+}
+.nav-prin{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-prin a{
+    padding: 1.3rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-prin a:hover{
+    color: var(--negro);
+    background-color: var(--primario);
 }
