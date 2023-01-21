@@ -61,7 +61,7 @@ p{
     color: var(--negro);
     background-color: var(--primario);
 }
-@media (){
+@media (min){
   
 }
 }
