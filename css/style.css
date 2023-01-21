@@ -61,7 +61,7 @@ p{
     color: var(--negro);
     background-color: var(--primario);
 }
-@media (min-width){
+@media (min-width: 480px){
   
 }
 }
