@@ -39,7 +39,7 @@ p{
     font-weight: bold;
 }
 .contenedor{
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 .nav-bg{
@@ -47,11 +47,20 @@ p{
 }
 .nav-prin{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
+@media (min-width: 768px) {
+    .nav-prin {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+ }
 .nav-prin a{
     padding: 1.3rem;
+    display: block;
     color: var(--blanco);
     text-decoration: none;
     font-weight: bold;
@@ -60,7 +69,4 @@ p{
 .nav-prin a:hover{
     color: var(--negro);
     background-color: var(--primario);
-}
-@media (min-width: 480px){
-  
 }
