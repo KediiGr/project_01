@@ -1,0 +1,9 @@
+Para comentarios:
+    css: /* (comentario) */
+    html: <!-- (cometario) -->
+
+Tamaños pantallas (sugerencia) para mq:
+    Celular: 480px
+    Tablet: 768px
+    Monitor: 11240px
+    Algo más grande: 1400px
