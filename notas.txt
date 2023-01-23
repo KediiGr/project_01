@@ -7,3 +7,4 @@ Tamaños pantallas (sugerencia) para mq:
     Tablet: 768px
     Monitor: 11240px
     Algo más grande: 1400px
+
